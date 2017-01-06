@@ -139,7 +139,7 @@
             // 
             this.menu_new.Name = "menu_new";
             this.menu_new.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.menu_new.Size = new System.Drawing.Size(141, 22);
+            this.menu_new.Size = new System.Drawing.Size(152, 22);
             this.menu_new.Text = "&New";
             this.menu_new.Click += new System.EventHandler(this.menu_new_Click);
             // 
@@ -150,7 +150,7 @@
             this.accurevToolStripMenuItem,
             this.releasePackageToolStripMenuItem});
             this.menu_open.Name = "menu_open";
-            this.menu_open.Size = new System.Drawing.Size(141, 22);
+            this.menu_open.Size = new System.Drawing.Size(152, 22);
             this.menu_open.Text = "&Open ";
             // 
             // menu_open_file
@@ -177,26 +177,26 @@
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(138, 6);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(149, 6);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Enabled = false;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.saveToolStripMenuItem.Text = "&Save";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(138, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(149, 6);
             // 
             // menu_quit
             // 
             this.menu_quit.Name = "menu_quit";
             this.menu_quit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.menu_quit.Size = new System.Drawing.Size(141, 22);
+            this.menu_quit.Size = new System.Drawing.Size(152, 22);
             this.menu_quit.Text = "&Exit";
             this.menu_quit.Click += new System.EventHandler(this.menu_quit_Click);
             // 
@@ -423,7 +423,7 @@
             // 
             // button_ParseSQL
             // 
-            this.button_ParseSQL.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_ParseSQL.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_ParseSQL.Location = new System.Drawing.Point(12, 634);
             this.button_ParseSQL.Name = "button_ParseSQL";
             this.button_ParseSQL.Size = new System.Drawing.Size(135, 48);
@@ -448,7 +448,7 @@
             // buttonViewTableInformation
             // 
             this.buttonViewTableInformation.Enabled = false;
-            this.buttonViewTableInformation.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonViewTableInformation.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonViewTableInformation.Location = new System.Drawing.Point(294, 633);
             this.buttonViewTableInformation.Name = "buttonViewTableInformation";
             this.buttonViewTableInformation.Size = new System.Drawing.Size(135, 48);
@@ -473,12 +473,13 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.checkboxList_StatementsToParse);
+            this.groupBox1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(1083, 703);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(156, 148);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Statements To Parse";
+            this.groupBox1.Text = "Statements To Analyse";
             // 
             // groupBox2
             // 
@@ -487,6 +488,7 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.comboBox_selectedServer);
             this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(818, 703);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(259, 148);
@@ -500,7 +502,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label4.Location = new System.Drawing.Point(6, 70);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(168, 13);
+            this.label4.Size = new System.Drawing.Size(169, 13);
             this.label4.TabIndex = 20;
             this.label4.Text = "Please note this does not connect";
             // 
@@ -550,13 +552,14 @@
             this.label2.Location = new System.Drawing.Point(6, 22);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(38, 13);
+            this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 18;
             this.label2.Text = "Server";
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.TextBox_ApplicationLog);
+            this.groupBox3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(12, 688);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(800, 161);
@@ -567,7 +570,7 @@
             // buttonViewProcInformation
             // 
             this.buttonViewProcInformation.Enabled = false;
-            this.buttonViewProcInformation.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonViewProcInformation.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonViewProcInformation.Location = new System.Drawing.Point(435, 633);
             this.buttonViewProcInformation.Name = "buttonViewProcInformation";
             this.buttonViewProcInformation.Size = new System.Drawing.Size(135, 48);
@@ -579,7 +582,7 @@
             // buttonViewComposition
             // 
             this.buttonViewComposition.Enabled = false;
-            this.buttonViewComposition.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonViewComposition.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonViewComposition.Location = new System.Drawing.Point(153, 633);
             this.buttonViewComposition.Name = "buttonViewComposition";
             this.buttonViewComposition.Size = new System.Drawing.Size(135, 48);
@@ -607,7 +610,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cinder";
+            this.Text = "Cinder -TSQL Analsyis Tool";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

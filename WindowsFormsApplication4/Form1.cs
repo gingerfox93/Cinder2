@@ -529,13 +529,24 @@ namespace Cinder
 
             Dictionary<string, int> StatementStatistics = (Dictionary<string, int>)StatementInformation["StatementStatistics"];
 
-            foreach (KeyValuePair<string, int> entry in StatementStatistics)
-                appendToApplicationLog("Statement Statistics - " + entry.Value + " " + entry.Key + " found");
 
-            if(StatementStatistics.Count == 0)
+            string Composition = "";
+
+            foreach (KeyValuePair<string, int> entry in StatementStatistics)
             {
-                appendToApplicationLog("Nothing found");
+                Composition = Composition + entry.Value + " " + entry.Key + " found" + Environment.NewLine;
             }
+                //appendToApplicationLog("Statement Statistics - " + entry.Value + " " + entry.Key + " found");
+            
+
+            if (StatementStatistics.Count == 0)
+            {
+                //appendToApplicationLog("Nothing found");
+                Composition = "Nothing Found";
+            }
+
+            MessagePopup MessagePopup = new MessagePopup("TSQL Composition", Composition);
+            MessagePopup.Show();
 
         }
 

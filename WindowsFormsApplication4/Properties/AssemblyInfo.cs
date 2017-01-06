@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Cinder")]
-[assembly: AssemblyDescription("Parses and checks any TSQL code")]
+[assembly: AssemblyDescription("TSQL Analysis Tool")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Hillside Technology LTD")]
 [assembly: AssemblyProduct("Cinder")]

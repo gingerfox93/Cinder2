@@ -50,13 +50,13 @@ namespace Cinder
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.ToString());
+                    Errors.Add("Failed to run Capture proc stats statement");
                 }
 
             }
             catch (Exception e)
             {
-                Errors.Add("Failed to connect to " + Cinder.Properties.Settings.Default.MonitoringServer + "." + MonitoringDatabase);
+                Errors.Add("Failed to connect to SQL server \"" + Cinder.Properties.Settings.Default.MonitoringServer + "." + MonitoringDatabase + "\"");
             }
 
 
